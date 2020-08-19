@@ -1,0 +1,32 @@
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(150px)
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes from-left {
+  from {
+    left: 0;
+    visibility: visible;
+  }
+
+  to {
+    left: 100%;
+    visibility: hidden;
+  }
+}
+
+@keyframes from-right {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: 0;
+  }
+}
